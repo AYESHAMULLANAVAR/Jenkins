@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ("demo"){
             steps {
-                echo "booleanParam is set to: ${}"
+                echo "booleanParam is set to: ${params.myBoolean}"
             }
         }
     }
